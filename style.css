@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+#card {
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem grey;
+    background-color: white;
+}
+
+#shoe {
+    width: 50%;
+    margin-top: 0.8rem;
+}
+
+#text {
+    margin: 1rem;
+    text-align: left;
+}
+
+#smallbuttons {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.sbtn {
+    align-content: center;
+    width: 18%;
+    padding: 0px;
+    border-radius: 0.5rem;
+    margin-right: 0.3rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem grey;
+}
+
+#bbtn:hover {
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: background-color 0.5s ease;
+}
+
+#bbtn {
+    width: 80%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #778cf8;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+}
+
+.sbtn:hover {
+    font-weight: bold;
+}
+
+body {
+    background-color: #778cf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
